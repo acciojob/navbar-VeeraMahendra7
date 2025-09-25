@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+}
+.container{
+	background-color: #6e072d;
+	width: 100%;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container>ul{
+	list-style: none;
+	display: flex;
+}
+.container>ul li{
+	font-size: 18px;
+	padding: 1em 1.5em;
+	border: 2px solid white;
+}
+.container>ul li:hover{
+	background-color: #b90e4d;
+	cursor: pointer;
+}
