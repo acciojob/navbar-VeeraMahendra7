@@ -24,8 +24,14 @@ body{
 	font-size: 18px;
 	padding: 1em 1.5em;
 	border: 2px solid white;
+	cursor: pointer;
+}
+.left:last-child{
+	border-right: none;
+}
+.right: first-child{
+	border-left: none;
 }
 .container>ul li:hover{
 	background-color: #b90e4d;
-	cursor: pointer;
 }
